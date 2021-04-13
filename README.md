@@ -13,11 +13,11 @@ If these modules do not exist, they are automatically installed.
 You can install Perler through [pip](https://pypi.org/project/pip/) command. Installation normally takes less than 1min. <br> 
 pip
 ```python
-pip install git+https://github.com/yasokochi/REPOSITORY_NAME.git
+pip install git+https://github.com/yasokochi/Perler.git
 ```
 pipenv
 ```python
-pipenv install git+https://github.com/yasokochi/REPOSITORY_NAME.git#egg=perler
+pipenv install git+https://github.com/yasokochi/Perler.git#egg=perler
 ```
 
 ### environment
