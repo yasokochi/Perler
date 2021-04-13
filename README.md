@@ -77,3 +77,5 @@ print(plr.result_with_location.head())
 For more information, please see [examples](examples).
 
 If you find this work is useful, please cite: Yasushi Okochi, Shunta Sakaguchi, Ken Nakae, Takefumi Kondo, and Honda Naoki. "Model-based prediction of spatial gene expression via generative linear mapping", bioRxiv (2020) [URL](https://www.biorxiv.org/content/10.1101/2020.05.21.107847v1.full)
+
+The all source codes used in this study are deposited at [Google Drive](https://drive.google.com/file/d/1sCX4AcyoVl-8P2QPS0wz6xLobENsIao4/view?usp=sharing).
