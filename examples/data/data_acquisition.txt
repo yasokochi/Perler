@@ -1,0 +1,6 @@
+from Drosophila Virtual Expression eXplorer (DVEX, URL: https://shiny.mdc-berlin.de/DVEX/)
+ref: Karaiskos et al, 2017 (doi: 10.1126/science.aan3235)
+
+dge_normalized.txt: scRNAseq data
+bdtnp.txt: in situ data
+geometry_dvex.txt: cell location data

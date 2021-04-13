@@ -1,0 +1,19 @@
+Algorithm (plr.em_algorithm)
+Require: r (scRNAseq data) and h (ISH data)
+Output: the optimized parameters (gamma, pi, A, b, and sigma)
+
+initialize pi to 1/K (K: Number of cells containing in ISH data)
+initialize A and b as r and Ah +b has the same mean and variance for each element
+initialize sigma to the variance of each element of r
+initialize likelihood = -infinity
+Repeat
+    update gamma by eq. (11)
+    update pi by eq. (12)   #this step would be skipped if optimize_pi = False
+    update A and b by eq. (13 and 14)
+    update sigma by eq. (15)
+    set old_likelihood = likelihood
+    update likelihood by eq. (10)
+Until old_likelihood - likelihood > 0
+Return gamma, pi, A, b, and sigma
+
+Note that each equation number corresponds to Method section in the manuscript.
