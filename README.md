@@ -48,7 +48,7 @@ also, the version information of the required modules is in [requirements.txt](r
 ## Usage
 ### PERLER procedures
 This is a very short introduction of Perler.<br>
-As input, Perler take
+As input, Perler takes
 
 - scRNAseq data with sample rows and gene columns
 - *in situ* data (ISH) with sample rows and gene columns
