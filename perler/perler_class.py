@@ -121,7 +121,7 @@ class _GMM():
 
     def PLSC(self, n_metagenes, zero_mean = True):
         '''
-        dimensinality reduction by PLSC
+        dimensionality reduction by PLSC
         '''
         if zero_mean == True:
             X = self.__r_ - np.mean(self.__r_, axis = 0)
@@ -479,7 +479,7 @@ class PERLER(_GMM):
 
     def loocv(self, workers = -1):
         '''
-        runnning loocv experiments
+        running loocv experiments
 
         ---parameters---
         Default values are recommended.
@@ -500,7 +500,7 @@ class PERLER(_GMM):
 
     def k_folds_cv(self, k = 10, seed = 10, workers = -1):
         '''
-        runnning loocv experiments
+        running loocv experiments
 
         ---parameters---
         Default values are recommended.
@@ -595,7 +595,7 @@ class PERLER(_GMM):
         grid search for the hyperparameters estimation by using scipy.optimize.brute
 
         ---parameters---
-        grids : tupple
+        grids : tuple
         set the ranges parameters of scipy.optimize.brute function.
         The default is ((0,1), (0,1)).
 
@@ -718,7 +718,7 @@ class PERLER(_GMM):
                 fig.show()
 
             else:
-                raise ValueError("The parameter 'view' cannot accept this value. Please see the discription of this function")
+                raise ValueError("The parameter 'view' cannot accept this value. Please see the description of this function")
 
 
 
