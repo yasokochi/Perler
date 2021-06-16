@@ -590,7 +590,7 @@ class PERLER(_GMM):
 
 
     
-    def grid_search(self, grids = ((0,1), (0,1)), workers = -1):
+    def grid_search(self, grids = ((0,1), (0.01,1)), workers = -1):
         '''
         grid search for the hyperparameters estimation by using scipy.optimize.brute
 
